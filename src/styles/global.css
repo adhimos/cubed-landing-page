@@ -1,0 +1,29 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+body {
+  background-color: #1f434e;
+}
+
+.title-first {
+  font-family: "Dancing Script";
+  font-style: italic;
+  font-size: 45px;
+  color: white;
+}
+
+.title-second {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 101px;
+    margin-left: 10px;
+    color: white;
+}

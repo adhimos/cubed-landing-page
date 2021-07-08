@@ -7,9 +7,9 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-mdx`,
+    'gatsby-plugin-postcss',
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -23,5 +23,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: `${__dirname}/src/images`,
+        },
+      },
+    }
   ],
 }

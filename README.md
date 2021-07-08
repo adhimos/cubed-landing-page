@@ -1,65 +1,54 @@
 <p align="center">
-  <img alt="preview of page" src="https://github.com/gillkyle/images/blob/master/Screen%20Shot%202019-03-21%20at%209.14.46%20PM.png" />
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
 </p>
 <h1 align="center">
-  Gatsby Landing Page Starter
+  Gatsby minimal starter
 </h1>
 
-A simple, minimal, easy-to-use landing page starter without all sorts of bells and whistles bolted on that you'll just have to strip out later. Create a super fast, beautiful landing page from a barebones template with a single page that already looks good.
+## 🚀 Quick start
 
-## Prerequisites
+1.  **Create a Gatsby site.**
 
-If you do not have the Gatsby CLI installed yet, do it first.
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-```bash
-npm install --global gatsby-cli
-```
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-The Gatsby CLI uses Node and npm which you will also need installed. More information can be found on [GatsbyJS.org](https://www.gatsbyjs.org/tutorial/part-one/).
+2.  **Start developing.**
 
-## 🚀 Getting Started
+    Navigate into your new site’s directory and start it up.
 
-Install the starter using the Gatsby new command.
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-```bash
-gatsby new landing-page https://github.com/gillkyle/gatsby-starter-landing-page.git
-```
+3.  **Open the code and start customizing!**
 
-Navigate into the project directory and launch the site.
+    Your site is now running at http://localhost:8000!
 
-```bash
-cd landing-page && gatsby develop
-```
+    Edit `src/pages/index.js` to see your site update in real-time!
 
-The site will be opened up in your default browser on http://localhost:8000
+4.  **Learn more**
 
-Edit code in the `/src`, save your changes, and they'll reload instantly in the browser.
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🧐 What's inside?
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-The minimal landing page starter comes with a few plugins installed already, but it's main focus is on staying simple and looking clean. These things are included by default:
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-- 🖼 Gatsby Image: images added to the `src/images` folder are automatically optimized by the `gatsby-image` plugin and can be pulled into components with lazy loading and blur up effects
-- 📊 Analytics: add your Google Analytics tracking id to `gatsby-config.js` to automatically begin tracking visitors to the site
-- 🗺 Sitemap: any new pages added to the site are automically assembled together into a sitemap through `gatsby-plugin-sitemap`
-- 🎨 Color Theme: the `src/styles/constants.js` file contains a set of colors and default styles that are applied inline to components on the site that can be overriden with your own styles
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🧪 Experiment
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-If you want to try playing with the source code in an online playground you can open the repo in Codesandox with this button.
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-[![Edit gatsby-starter-portfolio-cara](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/gillkyle/gatsby-starter-landing-page/tree/master/)
+## 🚀 Quick start (Gatsby Cloud)
 
-## 💫 Deploy
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-If you just want to see a site online real fast you can deploy a copy of the site to Netlify with this button.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gillkyle/gatsby-starter-landing-page)
-
-To create an optimized build of the site run this command
-
-```bash
-gatsby build
-```
-
-A `/public` folder will be assembled that can be deployed to a service like Netlify, Surge, GitHub Pages, AWS S3, Firebase hosting, or your own file server.
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
