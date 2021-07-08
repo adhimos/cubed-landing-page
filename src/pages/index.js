@@ -31,7 +31,7 @@ const IndexPage = () => {
           <span className="title-first">Infrastructure as </span>
           <span className="title-second">CUBED</span>
         </div>
-        <div className="relative" style={{ top: '-25px'}}>
+        <div className="relative progress-title">
           <div className="flex mb-2 items-center justify-between">
             <div>
               <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-landing-blue bg-gray-50">
